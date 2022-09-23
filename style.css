@@ -61,11 +61,13 @@ button {
 
 .hero-section {
     display: flex;
-    background-color: #1f2937;
-    font-size: 18px;
-    color: #e5e7eb;
     justify-content: space-between;
     align-items: center;
+
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    
     height: 400px;
     padding: 0 200px;
 }
@@ -91,9 +93,45 @@ button {
 
 
 
+/* INFO SECTION */
 
 
+.info-section {
+    text-align: center;
 
+    padding: 0 200px;
+    height: 400px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.info-title{
+    color:#1f2937;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.card img{
+    height: auto;
+        width: 172px;
+}
 
 .footer-section {
     display: flex;
