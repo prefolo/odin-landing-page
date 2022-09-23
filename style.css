@@ -10,6 +10,9 @@ body{
     justify-content: center;
 }
 
+
+/* HEADER */
+
 ul {
     list-style: none;
 }
@@ -24,12 +27,12 @@ a{
 .header-section{
     display:flex;
     background-color: #1f2937;
-    color:#fff;
     font-size: 18px;
     color: #e5e7eb;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 50px;
+    padding:0 200px;
 }
 
 .logo{
@@ -41,6 +44,56 @@ a{
 .links{
     display: flex;
 }
+
+button {
+    color: #fff;
+    background-color:#3882f6;
+    padding:4px;
+    border: 0;
+    border-radius: 6px;
+    width: 140px;
+    font-size:22px;
+}
+
+/* HERO SECTION */
+
+
+
+.hero-section {
+    display: flex;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    padding: 0 200px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color:f9faf8;
+}
+
+.hero-left{
+    display:flex;
+    flex-direction: column;
+    width:450px;
+    height: 300px;
+    justify-content: space-evenly;
+}
+
+.hero-section img {
+    width:300px;
+    height: auto;
+}
+
+
+
+
+
+
 
 .footer-section {
     display: flex;
