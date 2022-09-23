@@ -31,8 +31,8 @@ a{
     color: #e5e7eb;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
-    padding:0 200px;
+    padding:10px 200px;
+    gap:20px;
 }
 
 .logo{
@@ -68,8 +68,8 @@ button {
     color: #e5e7eb;
     font-size: 18px;
     
-    height: 400px;
-    padding: 0 200px;
+    padding: 50px 200px;
+    gap: 40px;
 }
 
 .hero-title {
@@ -82,8 +82,8 @@ button {
     display:flex;
     flex-direction: column;
     width:450px;
-    height: 300px;
     justify-content: space-evenly;
+    gap: 10px;
 }
 
 .hero-section img {
@@ -99,12 +99,13 @@ button {
 .info-section {
     text-align: center;
 
-    padding: 0 200px;
-    height: 400px;
+    padding: 50px 200px;
+
 
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    gap:60px;
 }
 
 .info-title{
@@ -115,9 +116,10 @@ button {
 
 .cards{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 24px;
+    gap: 64px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -126,6 +128,7 @@ button {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    width:170px;
 }
 
 .card img{
@@ -167,8 +170,7 @@ button {
 /* SIGNUP SECTION */
 
 .signup-section{
-    height:300px;
-    padding: 0 200px;
+    padding: 50px 200px;
     display: flex;
     align-items: center;
     color: #fff;
@@ -182,9 +184,8 @@ button {
 
     background-color: #3882f6;
     border-radius: 6px;
-    height:130px;
     gap: 20px;
-    padding: 0 40px;
+    padding: 20px 40px;
 }
 
 
